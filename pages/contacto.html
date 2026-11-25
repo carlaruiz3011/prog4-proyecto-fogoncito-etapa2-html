@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto — Fogoncito</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span aria-hidden="true">🔥</span>
+            <h1>FOGONCITO</h1>
+        </div>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="pedido.html">Mi pedido</a></li>
+                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="titulo-form-contacto">
+            <h2 id="titulo-form-contacto">Escribinos</h2>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="nombre-contacto">Nombre *:</label>
+                    <input type="text" id="nombre-contacto" name="nombre-contacto"
+                           autocomplete="name" required>
+                </p>
+
+                <p>
+                    <label for="email-contacto">Correo electrónico *:</label>
+                    <input type="email" id="email-contacto" name="email-contacto"
+                           autocomplete="email" required>
+                </p>
+
+                <p>
+                    <label for="fecha-contacto">Fecha de la consulta *:</label>
+                    <input type="date" id="fecha-contacto" name="fecha-contacto" required>
+                </p>
+
+                <p>
+                    <label for="mensaje-contacto">Mensaje *:</label>
+                    <textarea id="mensaje-contacto" name="mensaje-contacto"
+                              rows="5" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar consulta</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Fogoncito — Hamburguesería artesanal</p>
+    </footer>
+
+</body>
+</html>
